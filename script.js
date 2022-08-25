@@ -13,11 +13,11 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 let songs = [
     { songName: "Warriyo - Mortals (feat. Laura Brehm) [NCS Release]", filePath: "1.mp3", coverPath: "1.jpg" },
     { songName: "Cielo - Huma Huma", filePath: "2.mp3", coverPath: "2.jpg" },
-    { songName: "DEAF KEV - Invincible [NCS Release]", filePath: "3.mp3", coverPath: "covers/3.jpg" },
+    { songName: "DEAF KEV - Invincible [NCS Release]", filePath: "3.mp3", coverPath: "3.jpg" },
     { songName: "Different Heaven & EH!DE- My Heart [NCS Release]", filePath: "4.mp3", coverPath: "4.jpg" },
     { songName: "Janji-Heroes-Tonight-feat-Johnning-NCS-Release", filePath: "5.mp3", coverPath: "5.jpg" },
     { songName: "Janji-Heroes-Tonight-feat-Johnning-NCS-Release", filePath: "6.mp3", coverPath: "6.jpg" },
-    { songName: "DEAF KEV - Invincible [NCS Release]", filePath: "7.mp3", coverPath: "covers/7.jpg" },
+    { songName: "DEAF KEV - Invincible [NCS Release]", filePath: "7.mp3", coverPath: "7.jpg" },
     { songName: "Warriyo - Mortals (feat. Laura Brehm) [NCS Release]", filePath: "8.mp3", coverPath: "8.jpg" },
     { songName: "Janji-Heroes-Tonight-feat-Johnning-NCS-Release", filePath: "9.mp3", coverPath: "9.jpg" },
     { songName: "Different Heaven & EH!DE- My Heart [NCS Release]", filePath: "10.mp3", coverPath: "10.jpg" }
