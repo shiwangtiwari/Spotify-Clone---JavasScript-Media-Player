@@ -12,7 +12,7 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
     { songName: "Warriyo - Mortals (feat. Laura Brehm) [NCS Release]", filePath: "1.mp3", coverPath: "1.jpg" },
-    { songName: "Cielo - Huma Huma", filePath: "songs/2.mp3", coverPath: "2.jpg" },
+    { songName: "Cielo - Huma Huma", filePath: "2.mp3", coverPath: "2.jpg" },
     { songName: "DEAF KEV - Invincible [NCS Release]", filePath: "3.mp3", coverPath: "covers/3.jpg" },
     { songName: "Different Heaven & EH!DE- My Heart [NCS Release]", filePath: "4.mp3", coverPath: "4.jpg" },
     { songName: "Janji-Heroes-Tonight-feat-Johnning-NCS-Release", filePath: "5.mp3", coverPath: "5.jpg" },
@@ -26,7 +26,7 @@ let songs = [
 songItems.forEach((element, i) => {
     element.getElementsByTagName("img")[0].src = songs[i].coverPath;
     element.getElementsByClassName("songNames")[0].innerText = songs[i].songName;
-    //element.getElementsByClassName("timestamp")[0].innerText = songs[i].songName;
+    
 });
 
 
@@ -113,7 +113,7 @@ document.getElementById('previous').addEventListener('click', () => {
     else {
         songIndex -= 1;
     }
-    audioElement.src = `songs/${songIndex + 1}.mp3`;
+    audioElement.src = `${songIndex + 1}.mp3`;
     masterSongName.innerText = songs[songIndex].songName;
         audioElement.currentTime = 0;
         audioElement.play();
